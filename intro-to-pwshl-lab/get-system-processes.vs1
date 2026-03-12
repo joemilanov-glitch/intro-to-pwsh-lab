@@ -1,0 +1,2 @@
+write-host "running processes:"
+get-process | select-object -property name, id, cpu, workingset
